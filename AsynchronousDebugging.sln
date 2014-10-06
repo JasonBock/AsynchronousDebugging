@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.CollatzInConsole", "AsynchronousDebugging.CollatzInConsole\AsynchronousDebugging.CollatzInConsole.csproj", "{E138F4E7-A2C3-4C88-9004-F2C7CFB45310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.UnitTests", "AsynchronousDebugging.UnitTests\AsynchronousDebugging.UnitTests.csproj", "{425E20B9-59D9-4877-8012-A964975EBF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.CollatzInWPF", "AsynchronousDebugging.CollatzInWPF\AsynchronousDebugging.CollatzInWPF.csproj", "{E7E29F3C-E501-460B-BF18-1FA330CB764C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.Collatz", "AsynchronousDebugging.Collatz\AsynchronousDebugging.Collatz.csproj", "{6C4575EF-9F1A-4079-9C4E-30E9B99C8D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.CollatzOnServer", "AsynchronousDebugging.CollatzOnServer\AsynchronousDebugging.CollatzOnServer.csproj", "{2C1AD7ED-31D2-4A7C-A3F5-5A6847CABA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDebugging.Messages", "AsynchronousDebugging.Messages\AsynchronousDebugging.Messages.csproj", "{05B91757-C9D7-4146-BF94-80C3280B55D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E138F4E7-A2C3-4C88-9004-F2C7CFB45310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E138F4E7-A2C3-4C88-9004-F2C7CFB45310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E138F4E7-A2C3-4C88-9004-F2C7CFB45310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E138F4E7-A2C3-4C88-9004-F2C7CFB45310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425E20B9-59D9-4877-8012-A964975EBF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425E20B9-59D9-4877-8012-A964975EBF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425E20B9-59D9-4877-8012-A964975EBF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425E20B9-59D9-4877-8012-A964975EBF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E29F3C-E501-460B-BF18-1FA330CB764C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E29F3C-E501-460B-BF18-1FA330CB764C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E29F3C-E501-460B-BF18-1FA330CB764C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E29F3C-E501-460B-BF18-1FA330CB764C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4575EF-9F1A-4079-9C4E-30E9B99C8D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4575EF-9F1A-4079-9C4E-30E9B99C8D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4575EF-9F1A-4079-9C4E-30E9B99C8D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4575EF-9F1A-4079-9C4E-30E9B99C8D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1AD7ED-31D2-4A7C-A3F5-5A6847CABA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1AD7ED-31D2-4A7C-A3F5-5A6847CABA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1AD7ED-31D2-4A7C-A3F5-5A6847CABA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1AD7ED-31D2-4A7C-A3F5-5A6847CABA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B91757-C9D7-4146-BF94-80C3280B55D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B91757-C9D7-4146-BF94-80C3280B55D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B91757-C9D7-4146-BF94-80C3280B55D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B91757-C9D7-4146-BF94-80C3280B55D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

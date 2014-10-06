@@ -1,0 +1,25 @@
+﻿<Window x:Class="AsynchronousDebugging.CollatzInWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Collatz" Height="460" Width="683" WindowStartupLocation="CenterScreen" FontSize="14">
+	<Grid Margin="0,0,-44,-21">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="131*"/>
+			<ColumnDefinition Width="168*"/>
+		</Grid.ColumnDefinitions>
+		<Button Content="Run Many Random Collatz On Server" HorizontalAlignment="Left" Margin="12,371,0,0" VerticalAlignment="Top" Width="247" Click="OnRunManyRandomCollatzOnServerClick" RenderTransformOrigin="0.453,2.3"/>
+		<Label Content="Iterations:" HorizontalAlignment="Left" Margin="12,308,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="95,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Name="Iterations" Grid.ColumnSpan="2" />
+		<Label Content="Value:" HorizontalAlignment="Left" Margin="12,6,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="95,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Name="Value" Grid.ColumnSpan="2" />
+		<Button Content="Run Synchronously" HorizontalAlignment="Left" Margin="12,49,0,0" VerticalAlignment="Top" Width="247" Click="OnRunSynchronouslyClick" RenderTransformOrigin="0.453,2.3"/>
+		<Button Content="Run Asynchronously" HorizontalAlignment="Left" Margin="12,77,0,0" VerticalAlignment="Top" Width="247" Click="OnRunAsynchronouslyClick" RenderTransformOrigin="0.453,2.3"/>
+		<TextBox Name="Results" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"
+			Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="251" Margin="283,47,0,0" VerticalAlignment="Top" Width="382"/>
+		<Button Content="Run Asynchronously Using File" HorizontalAlignment="Left" Margin="12,133,0,0" VerticalAlignment="Top" Width="247" Click="OnRunAsynchronouslyUsingFileClick" RenderTransformOrigin="0.453,2.3"/>
+		<Button Content="Run Asynchronously With Void" HorizontalAlignment="Left" Margin="12,105,0,0" VerticalAlignment="Top" Width="247" Click="OnRunAsynchronouslyWithVoidClick" RenderTransformOrigin="0.453,2.3"/>
+		<Button Content="Run random.org Collatz On Server" HorizontalAlignment="Left" Margin="12,399,0,0" VerticalAlignment="Top" Width="247" Click="OnRunRandomOrgCollatzOnServerClick" RenderTransformOrigin="0.453,2.3"/>
+		<Label Content="Pause Time:" HorizontalAlignment="Left" Margin="12,336,0,0" VerticalAlignment="Top"/>
+		<TextBox HorizontalAlignment="Left" Height="23" Margin="95,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Name="PauseTime" Grid.ColumnSpan="2" />
+	</Grid>
+</Window>
